@@ -28,10 +28,16 @@ main {
   text-transform: uppercase;
 }
 
-.article__subtext {
+.article__subtext,
+.article2__subtext {
   font-size: 12px;
   font-weight: bold;
   color: red;
+}
+
+.article2__subtext {
+  border-bottom: 1px dotted black;
+  padding-bottom: 1em;
 }
 
 .article1 h1 {
@@ -42,3 +48,142 @@ main {
   opacity: 0.7;
   font-size: 20px;
 }
+
+.article1 figure {
+  display: flex;
+  flex-direction: row-reverse;
+  align-items: center;
+  gap: 1em;
+}
+
+.text__con {
+  max-width: 700px;
+  align-self: end;
+}
+
+.article1 figcaption {
+  opacity: 0.5;
+  font-size: 12px;
+  text-align: end;
+  align-self: flex-start;
+}
+
+.article2__writer,
+.writer__email__con,
+.writer__contact__con,
+.writer__twitter__con {
+  display: flex;
+}
+
+.writer__contact__con--gap {
+  display: flex;
+  gap: 0.5em;
+}
+
+.writer__twitter__con,
+.writer__email__con {
+  gap: 0.5em;
+  padding: 0.5em 0.3em;
+}
+
+.writer__name {
+  padding: 0.2em 0.5em;
+  font-weight: bold;
+}
+
+.writer__name2 {
+  font-weight: bold;
+}
+
+.writer__icon {
+  border-radius: 50%;
+  max-width: 50px;
+  max-height: 50px;
+}
+
+.article2__writer {
+  padding-top: 1em;
+}
+
+.article2__writer__name2 {
+  padding-top: 1em;
+  display: flex;
+  flex-direction: column;
+  gap: 1em;
+}
+
+.writer__contact__email,
+.writer__contact__twitter {
+  background-color: #c3c3c3;
+  padding: 0.3em;
+  border-radius: 50%;
+  font-size: 12px;
+}
+
+.writer__contact__twitter {
+  background-color: #0fb1e2;
+}
+
+.article2 {
+  display: flex;
+  gap: 1em;
+  padding-top: 3em;
+}
+
+.article2__subtext__con {
+  display: flex;
+  justify-content: space-between;
+  padding-bottom: 1em;
+  border-bottom: 1px dotted black;
+  font-size: 12px;
+  font-weight: bold;
+}
+
+.article2__text {
+  font-size: 20px;
+  padding-top: 2em;
+}
+
+.article2__text--gap {
+  padding-bottom: 2em;
+}
+
+.article2__socials {
+  display: flex;
+  gap: 0.5em;
+  float: right;
+  height: 150px;
+}
+
+.article2__socials div {
+  gap: 0.5em;
+}
+
+.article2__socials p {
+  text-transform: uppercase;
+  color: white;
+  font-weight: bold;
+  font-size: 14px;
+}
+
+.article2__socials div {
+  width: 130px;
+  height: 45px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.socials--blue {
+  background: #356198;
+}
+
+.socials--teal {
+  background: #30bee9;
+}
+
+.socials--grey {
+  background-color: #9d9797;
+}
+
+.

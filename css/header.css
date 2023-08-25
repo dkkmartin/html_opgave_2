@@ -31,22 +31,3 @@ nav section {
   padding: 0 1em;
   text-transform: uppercase;
 }
-
-.article1 figure {
-  display: flex;
-  flex-direction: row-reverse;
-  align-items: center;
-  gap: 1em;
-}
-
-.text__con {
-  max-width: 700px;
-  align-self: end;
-}
-
-.article1 figcaption {
-  opacity: 0.5;
-  font-size: 12px;
-  text-align: end;
-  align-self: flex-start;
-}
